@@ -12,6 +12,7 @@ Things you may want to cover:
 * Configuration
 
 * Database creation
+  -To setup the database do: rake db:create, then rake db:migrate
 
 * Database initialization
 
