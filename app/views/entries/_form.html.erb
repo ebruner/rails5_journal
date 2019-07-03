@@ -1,0 +1,7 @@
+<%= bootstrap_form_for(@entry) do |f| %>
+<%= csrf_meta_tags %>
+  <%= f.text_area :note %>
+  <%= f.text_area :prayer %>
+  <%= f.file_field :attachments, multiple: true, direct_upload: true %>
+  <%= f.submit "Submit" %>
+<% end %>
